@@ -1,4 +1,4 @@
-# MySQL基础使用练习  
+# MySQL基础使用自我练习  
 在电脑上安装MySQL：https://blog.csdn.net/2402_85428625/article/details/146364846  
 一个下载地址：https://dev.mysql.com/downloads/file/?id=478034  
 变量种类，基础命令教程：https://blog.csdn.net/qq_55797703/article/details/140394423  
@@ -66,7 +66,7 @@ const char* pw = "123456";       //数据库密码，按照自己创建的写
 const char* databse_name = "zzk";//数据库名称，按照自己创建的写
 const int port = 3306;           //默认端口号为3306
 ```
-接下来在main()函数中要连接到数据库：  
+接下来在main()函数中调用函数mysql_real_connect()连接到数据库：(这个函数返回布尔值表示是否连接成功，用于判断是否连接成功)  
 ```c++
 int main()
 {
@@ -83,7 +83,7 @@ int main()
     //......
 }
 ```
-接下来，直接用mysql_query()函数通过命令行的字符串操作MySQL，例如这里查找表student_info中的所有行：  
+接下来，直接用mysql_query()函数通过命令行的字符串操作MySQL，这个函数如果执行失败会返回1，例如这里查找表student_info中的所有行：  
 ```c++
 int main(){
     //......
@@ -96,7 +96,7 @@ int main(){
     //......
 }
 ```
-怎么把查询出来的结果显示或者赋值给需要的变量是需要自己去定义的，这里以一种输出方式为例子：  
+怎么把查询出来的结果显示或者赋值给需要的变量是需要自己去定义的，这里以一种控制台显示输出方式为例子：  
 ```c++
 int main()
 {
