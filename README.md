@@ -2,7 +2,7 @@
 在电脑上安装MySQL：https://blog.csdn.net/2402_85428625/article/details/146364846  
 一个下载地址：https://dev.mysql.com/downloads/file/?id=478034  
 基础命令教程：https://blog.csdn.net/qq_55797703/article/details/140394423  
-```bash
+```
 C:\Users\dell>mysql -uroot -p
 Enter password: ******
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -35,7 +35,7 @@ Query OK, 0 rows affected (0.01 sec)
 ```
 
 ## 常用的必须掌握的命令
-```bash
+```
 # 增
 insert into 表名 values (字段1值,...,字段n值),...,(字段1值,...,字段n值);
 # 改
@@ -45,5 +45,6 @@ delete from 表名 where 条件表达式;
 # 查
 select 字段1,...,字段n from 表名 where 条件表达式; # 查找符合条件的数据的某个字段
 select * from 表名 where 条件表达式; # 查找符合条件的数据的所有字段
-
 ```
+
+
