@@ -39,7 +39,7 @@ Query OK, 0 rows affected (0.01 sec)
 # 增
 insert into 表名 values (字段1值,...,字段n值),...,(字段1值,...,字段n值);
 # 改
-update 表名 字段1=值1,...,字段n=值n where 条件表达式;
+update 表名 set 字段1=值1,...,字段n=值n where 条件表达式;
 # 删
 delete from 表名 where 条件表达式;
 # 查
