@@ -17,10 +17,10 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-mysql> create database zzk;
+mysql> create database zzk; # 创建名称为zzk的数据库
 Query OK, 1 row affected (0.00 sec)
 
-mysql> use zzk;
+mysql> use zzk; # 开始使用名称为zzk的数据库
 Database changed
 
 # 新建一个表，表名是student_info
@@ -46,6 +46,8 @@ delete from 表名 where 条件表达式;
 select 字段1,...,字段n from 表名 where 条件表达式; # 查找符合条件的数据的某个字段
 select * from 表名 where 条件表达式; # 查找符合条件的数据的所有字段
 ```
+
+注意在MySQL命令中，条件表达式中判断两个数相等使用=而不是==，字符串需要左右各加一个单引号'，包括日期DATE类也需要在前后添加单引号'。
 
 ## C++与MySQL的互动  
 我使用的编译器是Visual Studio 2022，首先需要将安装好的MySQL添加到项目地址中：  
