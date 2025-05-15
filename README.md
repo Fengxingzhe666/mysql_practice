@@ -1,7 +1,7 @@
 # MySQL基础使用自我练习  
 在电脑上安装MySQL：https://blog.csdn.net/2402_85428625/article/details/146364846  
 一个下载地址：https://dev.mysql.com/downloads/file/?id=478034  
-变量种类，基础命令教程：https://blog.csdn.net/qq_55797703/article/details/140394423  
+变量类型，约束类型，基础命令教程：https://blog.csdn.net/qq_55797703/article/details/140394423  
 ```
 C:\Users\dell>mysql -uroot -p
 Enter password: ******
