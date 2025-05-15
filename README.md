@@ -119,3 +119,15 @@ int main()
     return 0;
 }
 ```
+在向表student_info中添加了一些数据以后，某次运行main.cpp获得输出：  
+```
+Connected to MySQL.
+1 Kevin 1 24 2001-05-09
+2 Mike 1 25 2000-04-28
+3 Jack 1 23 2001-09-07
+4 Kelly 0 20 2004-03-10
+5 Mark 1 17 2008-02-24
+6 Tom 1 24 2001-05-03
+7 Amya 0 23 2001-08-17
+8 Bob 1 28 1996-06-19
+```
